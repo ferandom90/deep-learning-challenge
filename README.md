@@ -3,7 +3,8 @@
 The code starts by importing necessary libraries: pandas, sklearn, and tensorflow.
 The dataset "charity_data.csv" is loaded into a Pandas DataFrame called application_df.
 Initial Data Exploration:
-#The .head() function is used to display the first few rows of the dataset.
+
+The .head() function is used to display the first few rows of the dataset.
 .nunique() is called to determine the number of unique values in each column of the DataFrame.
 Drop Non-Beneficial Columns:
 The "EIN" column is dropped from the DataFrame since it likely won't contribute to the prediction.
